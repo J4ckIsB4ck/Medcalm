@@ -1,0 +1,658 @@
+body{
+    line-height: 1.6;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    background-color: #D9D9D9;  
+}
+.content{
+    max-width: 1500px;
+    margin: auto;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+.intro{
+    width: 100%;
+    
+    position: relative;
+}
+.logo_med{
+    display: flex;
+    font-size: 38px;
+    font-weight: 400px;
+    align-items: flex-start;
+    color: #D2D8CE;
+}
+.border_logo{
+    border: 1px solid #7CB64F;
+    border-radius: 65px;
+    padding: 10px 25px;
+    background-color: #7CB64F;
+        
+}
+.text_nav{
+    color: #D2D8CE;
+    text-decoration: none;
+    padding-left: 10px;
+    font-weight: 400px;
+    font-size: 25px;
+}
+.text_nav:hover{
+    transition: 0.8s;
+    color: rgb(235, 147, 147);
+}
+.border_green{
+    border: 1px solid #7CB64F;
+    border-radius: 30px;
+    padding-right: 10px;
+    background-color: #7CB64F;
+}
+.container2{
+    margin: 0px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+.text_p1{
+    font-size: 38px;
+    font-weight: 700px;
+}
+.text_p2{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400px;
+}
+.button{
+    border: none;
+    background-color: #53CE58;
+    border-radius: 20px;
+    left: 280px;
+    position: absolute;
+    width: 215px;
+    height: 70px;
+}
+.img_main{
+    width: 500px;
+    height: 500px;
+}
+.button:hover{
+    opacity: 0.7;
+    transition: 0.8s;
+    color: white;
+    cursor: pointer;
+}
+.line{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 200px;
+    padding-top: 150px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+.text_center{
+    text-align: center;
+    margin-top: 200px;
+}
+.text_bold{
+    font-size: 38px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.text_upper_bold{
+    font-weight: 400px;
+    font-size: 18px;
+    font-family: 'Inter', sans-serif;
+    color: #7E7E7E;
+}
+.text_upper_bold :after {
+    content: "";
+    display: block;
+    width: 430px;
+    height: 1px;
+    background-color: #09A00F;
+    margin: 30px auto;
+}
+.section_green_blocks{
+    display: flex;
+    justify-content: space-evenly;
+}
+.green_blocks{
+    border: none;
+    width: 290px;
+    height: 280px;
+    box-shadow: 0px 0px 43.0625px rgba(0, 0, 0, 0.25);
+    background-color: #8BCC8D;
+}
+.green_blocks:hover {
+    opacity: 0.8;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.in{
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.text_green_box{
+    text-align: center;
+    padding-top: 26px;
+}
+.light_green_box{
+    border: none;
+    background-color: #C1DEAA;
+    width: 560px;
+    height: 120px;
+    border-radius: 10px;
+    margin: 0px auto;
+}
+.light_green_box:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    transition: 0.7s;
+    color: #7E7E7E;
+}
+.text_light_green_box{
+    font-size: 38px;
+    font-weight: 400px;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+.box{
+    padding-bottom: 100px;
+}
+.background_footer{
+    background-color: #282525;
+    border-radius: 30px;
+    background: cover;
+
+}
+.footer{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    height: 280px;
+    
+}
+.footer_logo{
+    display: flex;
+    align-items: flex-start;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 38px;
+    color: #D2D8CE;
+}
+.footer_text{
+    text-align: center;
+    color: white;
+    padding-right: 80px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#logo{
+    padding-left: 20px;
+}
+.navbar_fixed{
+    padding-top: 5px;
+    border: none;
+    background-color: #7CB64F;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.navbar_in{
+    font-size: 38px;
+    font-weight: 400px;
+    color: #D2D8CE;
+}
+.navbar_ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+.ul_text{
+    padding-right: 50px;
+    text-decoration: none;
+    color: #D2D8CE;
+    font-weight: 400px;
+    font-size: 25px;
+}
+.ul_text:hover{
+    transition: 0.8s;
+    color: rgb(235, 147, 147);
+}
+.text_mindfulness{
+    text-align: center;
+    padding-top: 50px;
+    margin: 10px auto;
+    font-size: 96px;
+    font-family: 'Merriweather', serif;
+}
+.text_mindfulness:after{
+    content: "";
+    display: block;
+    width: 430px;
+    height: 2px;
+    background-color: #09A00F;
+    margin: auto;
+}
+.img_first{
+    width: 500px;
+    height: 400px;
+    border-radius: 60px;
+    box-shadow: 20px 10px #8BCC8D;
+    padding-left: 20px;
+}
+.text_image{
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+.text_image2{
+    padding-left: 60px;
+}
+.text_image3{
+    padding-right: 60px;
+    margin-left: 20px;
+}
+.img_second{
+    width: 500px;
+    height: 400px;
+    border-radius: 60px;
+    box-shadow: -20px 10px #8BCC8D;
+    padding-right: 20px;
+}
+.box_text{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+}
+.box_text:after{
+    content: "";
+    display: block;
+    width: 1000px;
+    height: 2px;
+    background-color: #09A00F;
+}
+.box_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 50px;
+    justify-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.box_mindfulness{
+    border: none;
+    background-color: #C1DEAA;
+    border-radius: 30px;
+    box-shadow: 1px 5px 10px;
+    width: 400px;
+    overflow: hidden;
+}
+.img_box{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+.img_box:hover{
+    transform: scale(1.1);
+}
+.box_text_mindfulness{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.text_mindfulness_header{
+    font-size: 24px;
+}
+.text_mindfulness_body{
+    font-size: 12px;
+}
+.text_meditation{
+    display: flex;
+    padding-top: 100px;
+    align-items: center;
+    margin-left: 10px;
+    font-family: 'Merriweather', serif;
+}
+.list_meditation:before{
+    content: "";
+    display: block;
+    width: 750px;
+    height: 2px;
+    background-color: #09A00F;
+    margin: 40px auto;
+}
+.img_medtitating{
+    border-radius: 60px;
+    padding: 20px;
+    box-shadow: 5px -10px #8bcc8d
+}
+.border_meditation{
+    border: solid 1px gray;
+    border-radius: 50px;
+    background-color: gray;
+    text-align: center;
+    margin: 100px 340px;
+    padding: 30px 40px 20px;
+    font-style: italic;
+}
+.border_meditation:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#border{
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.list_meditation{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+.list_meditation_box{
+    display: flex;
+    font-family: 'Merriweather', serif;
+}
+.list_image{
+    border-radius: 60px;
+    padding: 20px;
+    box-shadow: -15px 20px #8bcc8d;
+}
+.footer_meditation{
+    display: flex;
+    align-items: center;
+    padding-bottom: 100px;
+}
+.footer_img{
+    border-radius: 60px;
+    padding: 20px;
+    box-shadow: 10px -5px #8bcc8d;
+}
+.footer_text_meditation{
+    font-family: 'Merriweather', serif;
+    padding-left: 25px;
+}
+.dream_header{
+    padding-top: 50px;
+    padding-left: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: 30px;
+}
+.dream_header:after{
+    content: "";
+    display: block;
+    width: 430px;
+    height: 1px;
+    background-color: #09A00F;
+    margin: 30px ;
+}
+.dream_header:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    cursor: pointer;
+    color: #53CE58;
+}
+.dream_container{
+    display: flex;
+    align-items: center;
+}
+.dream_img{
+    border-radius: 60px;
+    padding: 20px;
+    box-shadow: 10px -5px #8bcc8d;
+}
+.dream_text{
+    font-family: 'Merriweather', serif;
+    padding-left: 25px;
+}
+.footer_dream_header{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    padding-top: 20px;
+}
+.footer_dream_text{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+@media (max-width:1275px){
+    .content{
+         max-width: 970px;
+    }
+    .container{
+        margin: 0px;
+    }
+    .container2{
+        display: flex;
+        flex-direction: column;
+    }
+    .button{
+       left: 400px;
+    }
+    .line{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box_text:after{
+        width: 700px;
+    }
+    .text_meditation{
+        display: flex;
+        flex-direction: column;
+    }
+    .border_meditation{
+        margin: 100px 220px;
+        border: solid 1px gray;
+        border-radius: 50px;
+        background-color: gray;
+        text-align: center;
+    }
+    .list_meditation_box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .list_image{
+        width: 400px;
+    }
+    .footer_meditation{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer_img{
+        width: 600px;
+    }
+    .dream_container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media (max-width:400px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav.border_green{
+        display: flex;
+    }
+    .button{
+        left: 80px;
+    }
+    .light_green_box{
+        width: 300px;
+        height: 85px;
+    }
+    .text_light_green_box{
+        font-size: 26px;
+        text-align: center;
+    }
+    .content.background_footer{
+        height: 300px;
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_text{
+        padding: 0px;
+    }
+    .line{
+        margin: 0px;
+    }
+    .container2{
+        margin: 0px 30px;
+    }
+    .text_p1{
+        font-size: 28px;
+    }
+    .text_p2{
+        font-size: 16px;
+    }
+    .img_main{
+        width: 300px;
+        height: 300px;
+    }
+    .text_upper_bold :after{
+        width: 375px;
+    }
+    .section_green_blocks{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center ;
+    }
+    .green_blocks{
+        width: 200px;
+        height: 230px;
+        margin-bottom: 30px;
+    }
+    #logo{
+        padding: 0px;
+    }
+    .navbar.navbar_fixed{
+        width: 390px;
+        left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .text_mindfulness{
+        margin: 86px auto;
+        font-size: 36px;
+    }
+    .text_mindfulness:after{
+        width: 370px;
+    }
+    .ul_text{
+        font-size: 14px;
+        padding-right: 40px;
+    }
+    .img_first{
+        width: 300px;
+        height: 300px;
+        padding-left: 0px;
+    }
+    .img_second{
+        width: 300px;
+        height: 300px;
+        padding-right: 0px;
+    }
+    .text_image{
+        display: flex;
+        flex-direction: column;
+    }
+    .text_image2{
+        padding-left: 20px;
+    }
+    .box_text{
+        font-size: 26px;
+        padding-left: 25px;
+    }
+    .box_text:after{
+        width: 300px;
+    }
+    .box_grid{
+        grid-template-columns: 1fr 1fr;
+    }
+    .box_mindfulness{
+        width: 150px;
+    }
+    .img_box{
+        width: 150px;
+        height: 150px;
+    }
+    .box_text_mindfulness{
+        padding: 0px;
+    }
+    .text_mindfulness_header{
+        font-size: 16px;
+    }
+    .text_mindfulness_body{
+        font-size: 7px;
+    }
+    .img_medtitating{
+        width: 300px;
+        height: 300px;
+    }
+    .border_meditation{
+        margin: 0px;
+    }
+    .list_meditation{
+        font-size: 26px;
+        padding-left: 12px;
+    }
+    .list_meditation:before{
+        width: 300px;
+    }
+    .list_image{
+        width: 300px;
+        height: 300px;
+        padding-bottom: 50px;
+        box-shadow: 10px -10px #8bcc8d;
+    }
+    .footer_img{
+        width: 300px;
+        height: 300px;
+        box-sizing: 10px -10px #8bcc8d;
+    }
+    .dream_header{
+        padding-left: 10px;
+        font-size: 26px;
+    }
+    .dream_header:after{
+        width: 300px;
+    }
+    .dream_img{
+        width: 300px;
+        height: 200px;
+    }
+}
